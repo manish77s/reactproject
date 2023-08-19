@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import { Store } from '../Datastore';
 import './articalComp.css'
-import Technology from '../Technology';
+// import Technology from '../Technology';
 import { Link } from 'react-router-dom';
-import Food from '../Foodcomp';
+// import Food from '../Foodcomp';
 
 const Articals = () => {
     const [Artical]= useContext(Store)
@@ -20,7 +20,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3>
          <div> <img className='img2' src={data.image}/> </div> <hr/>
-          */}<Link to={`/details/${Technology.heading}`} state={data}><h3>{data.heading}</h3><img className='img2' src={data.image}/></Link><hr/>
+          */}<Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img2' src={data.image}/></Link><hr/>
         </div>
       )
         
@@ -33,7 +33,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3>
           <img className='img3' src={data.image}/> <hr/> */}
-          <Link to={`/details/${Technology.heading}`} state={data}><h3>{data.heading}</h3><img className='img3' src={data.image}/></Link>
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img3' src={data.image}/></Link>
           <hr/>
         </div>
       )
@@ -47,7 +47,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3>
           <img className='img4' src={data.image}/> <hr/> */}
-          <Link to={`/details/${Technology.heading}`} state={data}><h3>{data.heading}</h3><img className='img4' src={data.image}/></Link><hr/>
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img4' src={data.image}/></Link><hr/>
         </div>
       )
         
@@ -60,7 +60,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> 
           <img className='img5' src={data.image}/>  */}
-          <Link to={`/details/${Technology.heading}`} state={data}><h3>{data.heading}</h3><img className='img5' src={data.image}/></Link><hr/>
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img5' src={data.image}/></Link><hr/>
           
           
         </div>
@@ -75,7 +75,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> 
           <img className='img6' src={data.image}/>  */}
-          <Link to={`/details/${Technology.heading}`} state={data}><h3>{data.heading}</h3><img className='img6' src={data.image}/></Link>
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img6' src={data.image}/></Link>
         </div>
       )
         
@@ -94,7 +94,7 @@ const Articals = () => {
           
           {/* <img className='topimage' src={data.image}/>
           <h3>{data.heading}</h3>  */}
-          <Link to={`/details/${Food.heading}`} state={data}><img className='topimage' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='topimage' src={data.image}/><h3>{data.heading}</h3></Link>
         </div>
       )
         
@@ -109,7 +109,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>  <hr/> */}
-          <Link to={`/details/${Technology.heading}`} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
         </div>
       )
         
@@ -124,7 +124,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>  */}
-          <Link to={`/details/${Technology.heading}`} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
            <hr/>
         </div>
       )
@@ -140,7 +140,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3> */}
-          <Link to={`/details/${Technology.heading}`} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
            <hr/>
         </div>
       )
@@ -156,7 +156,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={`/details/${Food.heading}`} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
           <hr/>
         </div>
       )
@@ -171,7 +171,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={`/details/${Food.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
         </div>
       )
         

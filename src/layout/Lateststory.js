@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import { Store } from '../Datastore';
 import './homestyle.css'
 import { Link } from 'react-router-dom';
-import Hollywood from '../Hollywood';
-import Food from '../Foodcomp';
-import Fitness from '../Fitness';
+// import Hollywood from '../Hollywood';
+// import Food from '../Foodcomp';
+// import Fitness from '../Fitness';
 
 const Lateststory = () => {
   const [Storylate]=useContext(Store)
@@ -21,7 +21,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3> */}
          
-          <Link to={`/details/${Hollywood.heading}`} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
         </div>
       )
         
@@ -37,7 +37,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3>
           <p>{data.description}</p>   */}
-          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
        
         </div>
        
@@ -56,7 +56,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3>
           <p>{data.description}</p>   */}
-          <Link to={`/details/${Fitness.heading}`} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
      
         </div>
       )

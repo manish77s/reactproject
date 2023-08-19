@@ -7,7 +7,9 @@ const {id}=  useParams();
 return (
     <div>
       <h1>Details..</h1>
-     {id}
+      <h2>{id.heading}</h2>
+      <img src={id.image}/>
+      <p>{id.description}</p>
 
     </div>
   )

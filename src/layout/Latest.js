@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import './homestyle.css'
 import { Store } from '../Datastore'
 import { Link } from 'react-router-dom'
-import Food from '../Foodcomp'
-import Fitness from '../Fitness'
-import Hollywood from '../Hollywood'
+// import Food from '../Foodcomp'
+// import Fitness from '../Fitness'
+// import Hollywood from '../Hollywood'
 
 const Latest = () => {
   const [Story]= useContext(Store)
@@ -17,7 +17,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-      <Link to={`/details/${Fitness.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage' /></Link>
+      <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage' /></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
         </div>
@@ -33,7 +33,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
+          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
         </div>
@@ -49,7 +49,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-         <Link to={`/details/${Hollywood.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
+         <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
           

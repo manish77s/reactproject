@@ -17,7 +17,7 @@ const Commoncompo = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3><img className='topimage' src={data.image} alt=''/></Link>
+          <Link to={'details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='topimage' src={data.image} alt=''/></Link>
           {/* <img className='topimage' src={data.image}/>
           <h3>{data.heading}</h3>  */}
         </div>
