@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './style.css'
 import { Store } from './Datastore'
-import Hollywood from './Hollywood'
+// import Hollywood from './Hollywood'
 // import Food from './Foodcomp'
 import { Link } from 'react-router-dom'
 
