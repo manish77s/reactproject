@@ -20,7 +20,7 @@ const Hometop = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> */}
           {/* <img className='imagetop' src={data.image}/> */}
-          <Link to={`/details/${Bollywood.heading}`} state={data}> <img className='imagetop' src={data.image}/></Link>
+          <Link to={`/details/${Bollywood.heading}`} state={data}> <img className='imagetop' src={data.image} alt='not found'/></Link>
         </div>
       )
         
@@ -36,7 +36,7 @@ const Hometop = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> */}
           {/* <img className='imagetop2' src={data.image}/> */}
-          <Link to={`/details/${Food.heading}`} state={data} ><img className='imagetop2' src={data.image}/></Link>
+          <Link to={`/details/${Food.heading}`} state={data} ><img className='imagetop2' src={data.image} alt='not found'/></Link>
         </div>
       )
         
@@ -51,7 +51,7 @@ const Hometop = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> */}
           {/* <img className='imagetop2' src={data.image}/> */}
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='imagetop2' src={data.image}/></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='imagetop2' src={data.image} alt='not found'/></Link>
           
         </div>
       )

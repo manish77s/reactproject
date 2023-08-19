@@ -22,7 +22,7 @@ function Bollywood() {
       return(
         <div key={index}>
           {/* <h1>{data.heading}</h1> */}
-          <Link to={`/details/${Bollywood.heading}`} state={data} className='removeLine'><h3>{data.heading}</h3><img src={data.image} className='compoimage'/></Link>
+          <Link to={`/details/${Bollywood.id}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
           <hr />
         </div>
       )

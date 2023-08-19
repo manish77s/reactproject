@@ -17,7 +17,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-      <Link to={`/details/${Fitness.heading}`} state={data} className='removeLine'><h3>{data.heading}</h3><img src={data.image} className='compoimage'/></Link>
+      <Link to={`/details/${Fitness.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage' /></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
         </div>
@@ -33,7 +33,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Food.heading}`} state={data} className='removeLine'><h3>{data.heading}</h3><img src={data.image} className='compoimage'/></Link>
+          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
         </div>
@@ -49,7 +49,7 @@ const Latest = () => {
       console.log(data);
       return(
         <div key={index}>
-         <Link to={`/details/${Hollywood.heading}`} state={data} className='removeLine'><h3>{data.heading}</h3><img src={data.image} className='compoimage'/></Link>
+         <Link to={`/details/${Hollywood.heading}`} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
           {/* <img className='img' src={data.image}/>
           <h3>{data.heading}</h3> */}
           

@@ -171,7 +171,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={`/details/${Food.heading}`} state={data}><img className='top4' src={data.image}/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Food.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
         </div>
       )
         
