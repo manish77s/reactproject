@@ -17,7 +17,7 @@ const Commoncompo = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3><img className='topimage' src={data.image} alt='not found'/></Link>
+          <Link to={`/details/${Food.heading}`} state={data}><h3>{data.heading}</h3><img className='topimage' src={data.image} alt=''/></Link>
           {/* <img className='topimage' src={data.image}/>
           <h3>{data.heading}</h3>  */}
         </div>
@@ -31,7 +31,7 @@ const Commoncompo = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt=''/><h3>{data.heading}</h3></Link>
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
           <hr/>
@@ -46,7 +46,7 @@ const Commoncompo = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt=''/><h3>{data.heading}</h3></Link>
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3>  <hr/> */}
           <hr/>
@@ -64,7 +64,7 @@ const Commoncompo = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>  */}
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt=''/><h3>{data.heading}</h3></Link>
           <hr/>
         </div>
       )
@@ -80,7 +80,7 @@ const Commoncompo = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3> */}
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt=''/><h3>{data.heading}</h3></Link>
             <hr/>
         </div>
       )
@@ -95,7 +95,7 @@ const Commoncompo = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={`/details/${Hollywood.heading}`} state={data}><img className='top4' src={data.image} alt=''/><h3>{data.heading}</h3></Link>
         </div>
       )
         
