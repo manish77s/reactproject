@@ -1,5 +1,18 @@
 .App {
+ background-color: burlywood;
+}
+.textcenter{
   text-align: center;
+}
+.textH{
+  transform: rotate(-90deg);
+  font-size: larger;
+  /* style={{transform:" rotate(-90deg)",fontSize:"large" }} */
+}
+.textD{
+  font-weight: bold;
+  font-size: xx-large;
+
 }
 
 .App-logo {

@@ -1,0 +1,26 @@
+.parant{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   
+   
+}
+
+.addver{
+  text-align: center;
+  width: 340px;
+  height: 400px;
+  ;line-height: 20;
+  border: 1px solid black;
+
+}
+.topimage{
+    width: 340px;
+    height: 300px;
+    border-radius: 10px
+}
+.top4{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px
+}
