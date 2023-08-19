@@ -5,7 +5,7 @@ import './style.css';
 import Latest from './layout/Latest';
 import Articals from './layout/Articals';
 import Lateststory from './layout/Lateststory';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 function Home() {

@@ -8,7 +8,7 @@ return (
     <div>
       <h1>Details..</h1>
       <h2>{id.heading}</h2>
-      <img src={id.image}/>
+      <img src={id.image} alt='not found'/>
       <p>{id.description}</p>
 
     </div>

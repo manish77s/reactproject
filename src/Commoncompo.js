@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './style.css'
 import { Store } from './Datastore'
 import Hollywood from './Hollywood'
-import Food from './Foodcomp'
+// import Food from './Foodcomp'
 import { Link } from 'react-router-dom'
 
 const Commoncompo = () => {
