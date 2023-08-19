@@ -10,7 +10,7 @@ const Lateststory = () => {
   const [Storylate]=useContext(Store)
   return (
   <>
-  <hr/><h3>Latest story</h3><hr/>
+  <hr/><h2>Latest story</h2><hr/>
     <div className='bottomstory'>
     <div className='homeStory'>
     {Storylate.filter((item) =>item.id===14).map((data,index)=>{

@@ -10,7 +10,7 @@ function Fitness() {
   
   <div className='containerComp'> 
  
- <h2>Bollywood</h2>  
+ <h2>Fitness</h2> <hr/>
  <div className='box1'>
   {FitData.filter((item) => item.category === 'Fitness').map((data,index)=>{
    console.log(data);
