@@ -27,12 +27,12 @@ function Routercomp() {
        <Route path='/fitness' element={<Fitness/>}/>
        <Route path='/food'element={<Food/>}/>
         
-       <Route path="//:id" element={<Details/>} />
-       <Route path='/bollywood/:id' element={<Details/>}/>
-       <Route path='/technology/:id' element={<Details/>}/>
-       <Route path='/hollywood/:id' element={<Details/>}/>
-       <Route path='/fitness/:id' element={<Details/>}/>
-       <Route path='/food/:id'element={<Details/>}/>
+       <Route path="//details/:id" element={<Details/>} />
+       <Route path='/bollywood/details/:id' element={<Details/>}/>
+       <Route path='/technology/details/:id' element={<Details/>}/>
+       <Route path='/hollywood/details/:id' element={<Details/>}/>
+       <Route path='/fitness/details/:id' element={<Details/>}/>
+       <Route path='/food/details/:id'element={<Details/>}/>
        
 
 

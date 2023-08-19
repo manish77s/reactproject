@@ -19,7 +19,7 @@ const Technology = () => {
        {/* <h1>{data.heading}</h1>
        
        <img src={data.image} className='compoimage'/><hr /> */}
-       <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
+       <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img src={data.image} alt='not found' className='compoimage'/></Link>
      </div>
    )
      

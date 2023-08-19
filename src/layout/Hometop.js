@@ -20,7 +20,7 @@ const Hometop = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> */}
           {/* <img className='imagetop' src={data.image}/> */}
-          <Link to={'/details/'+ data.id} state={data}> <img className='imagetop' src={data.image} alt='not found'/></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'> <img className='imagetop' src={data.image} alt='not found'/></Link>
         </div>
       )
         

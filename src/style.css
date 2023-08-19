@@ -33,7 +33,7 @@
 
 .parant{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 30%;
    
    
@@ -58,3 +58,6 @@
     border-radius: 10px
 }
 
+.textdeco{
+    text-decoration: none;
+}

@@ -21,7 +21,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3> */}
          
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
         </div>
       )
         
@@ -37,7 +37,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3>
           <p>{data.description}</p>   */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
        
         </div>
        
@@ -56,7 +56,7 @@ const Lateststory = () => {
           {/* <img className='top4' src={data.image}/> */}
           {/* <h3>{data.heading}</h3>
           <p>{data.description}</p>   */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3> <p>{data.description}</p> </Link> 
      
         </div>
       )

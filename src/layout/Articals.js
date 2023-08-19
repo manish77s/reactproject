@@ -18,7 +18,7 @@ const Articals = () => {
       console.log(data);
       return(
         <div key={index}>
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img2' src={data.image} alt='not found'/></Link><hr/>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img className='img2' src={data.image} alt='not found'/></Link><hr/>
         </div>
       )
         
@@ -31,7 +31,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3>
           <img className='img3' src={data.image}/> <hr/> */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img3' src={data.image} alt='not found'/></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img className='img3' src={data.image} alt='not found'/></Link>
           <hr/>
         </div>
       )
@@ -45,7 +45,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3>
           <img className='img4' src={data.image}/> <hr/> */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img4' src={data.image} alt='not found'/></Link><hr/>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img className='img4' src={data.image} alt='not found'/></Link><hr/>
         </div>
       )
         
@@ -58,7 +58,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> 
           <img className='img5' src={data.image}/>  */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img5' src={data.image} alt='not found'/></Link><hr/>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img className='img5' src={data.image} alt='not found'/></Link><hr/>
           
           
         </div>
@@ -73,7 +73,7 @@ const Articals = () => {
         <div key={index}>
           {/* <h3>{data.heading}</h3> 
           <img className='img6' src={data.image}/>  */}
-          <Link to={'/details/'+ data.id} state={data}><h3>{data.heading}</h3><img className='img6' src={data.image} alt='not found'/></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><h3>{data.heading}</h3><img className='img6' src={data.image} alt='not found'/></Link>
         </div>
       )
         
@@ -92,7 +92,8 @@ const Articals = () => {
           
           {/* <img className='topimage' src={data.image}/>
           <h3>{data.heading}</h3>  */}
-          <Link to={'/details/'+ data.id} state={data}><img className='topimage' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='topimage' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <hr/>
         </div>
       )
         
@@ -107,7 +108,8 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>  <hr/> */}
-          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+         <hr/>
         </div>
       )
         
@@ -122,7 +124,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>  */}
-          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
            <hr/>
         </div>
       )
@@ -138,7 +140,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3> */}
-          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
            <hr/>
         </div>
       )
@@ -154,7 +156,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
           <hr/>
         </div>
       )
@@ -169,7 +171,7 @@ const Articals = () => {
           
           {/* <img className='top4' src={data.image}/>
           <h3>{data.heading}</h3>   */}
-          <Link to={'/details/'+ data.id} state={data}><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
+          <Link to={'/details/'+ data.id} state={data} className='textdeco'><img className='top4' src={data.image} alt='not found'/><h3>{data.heading}</h3></Link>
         </div>
       )
         
